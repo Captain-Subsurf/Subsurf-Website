@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: white;
+    background-color: #1e272e;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-container,
+.nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-text {
+    font-weight: 400;
+}
+
+.logo-container img{
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-links a:hover {
+    color: #34e7e4;
+}
+
+/* Home Page Styles*/
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+.section-name {
+    display: flex;
+    padding: 40px 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.section-def {
+    flex: 1;
+}
+
+.section-def h1 {
+    color: #ff5e57;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.section-def p {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.section-img {
+    padding: 20px;
+    margin: 20px;
+    height: 50vh;
+}
+
+.action-btn {
+    padding: 10px 15px;
+    margin: 30px 0 0 0;
+    border: none;
+    color: inherit;
+    font-size: 16px;
+    background-color: #ff5e57;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    margin: 20vh 0 0 0;
+    padding: 25px 100px;
+
+    justify-content: center;
+}
+
+.intro h1{
+    color: #ff5e57;
+    font-style: italic;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 26px;
+}
+
+/* About Page Styles*/
+.about {
+    display: flex;
+    padding: 20px 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.about-def {
+    flex: 1;
+    font-size: 30px;
+}
+
+.about-def h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #34e7e4;
+}
+
+.my-photo {
+    margin: 40px;
+    height: 50vh;
+}
+
+.contact {
+    padding: 20vh 0;
+    height: 100vh;
+    align-items: center;
+}
+
+.contact-def {
+    padding: 30px;
+    font-size: 40px;
+}
+
+.contact-logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20vh;
+}
+
+.contact-logos img {
+    padding: 20px;
+    height: 15vh;
+    border-radius: 50%;
+}
+
+.contact-def h1 {
+    color: #34e7e4;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.blender h1{
+    color: #34e7e4;
+    text-align: center;
+    padding: 30px;
+    font-size: 44px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+.latest-render h1{
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+
+.latest-render img {
+    padding: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.b3d-grid {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.b3d-grid img {
+    width: 100%;
+}
+
+.coding-intro {
+    letter-spacing: 4px;
+    padding: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #34e7e4;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 10vh;
+}
+
+.code {
+    padding: 20vh 0;
+}
+
+.code-def {
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.code-def h1 {
+    margin: 30px;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.vfx-intro {
+    text-align: center;
+    font-size: 28px;
+    color: #34e7e4;
+    padding: 30px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 10vh 0;
+}
+
+.vfx {
+    display: flex;
+    align-items: center;
+    margin: 20vh 0;
+}
+
+.vfx-def {
+    font-size: 26px;
+    flex: 1;
+}
+
+.vfx-def h1 {
+    color: #34e7e4;
+    font-style: oblique;
+}
+
+@media (max-width: 1000px) {
+    header {
+        margin: 20px 0;
+        flex-direction: column;
+    }
+
+    nav {
+        margin: 40px 0;
+    }
+
+    .intro {
+        margin: 30vh 0;
+        padding: 25px;
+    }
+
+    .intro h1 {
+        font-size: 26px;
+    }
+
+    .intro p {
+        font-size: 20px;
+    }
+
+    .section-name {
+        flex-direction: column;
+    }
+
+    .section-img {
+        padding: 10px;
+        height: 30vh;
+    }
+
+    .about {
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .about-def {
+        font-size: 20px;
+    }
+
+    .contact-def {
+        margin: 5px 0;
+        padding: 10px 0;
+        font-size: 30px;
+    }
+
+    .b3d-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .latest-render img {
+        padding: 5px;
+    }
+
+    .coding-intro {
+        font-size: 20px;
+    }
+
+    .vfx {
+        flex-direction: column;
+    }
+}
