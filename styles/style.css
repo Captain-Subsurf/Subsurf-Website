@@ -315,6 +315,7 @@ main {
     .about {
         flex-direction: column;
         height: 70vh;
+        margin-top: 150px;
     }
 
     .about-def {
@@ -325,6 +326,10 @@ main {
         margin: 5px 0;
         padding: 10px 0;
         font-size: 30px;
+    }
+
+    .blender {
+        margin-top: 150px;
     }
 
     .b3d-grid {
