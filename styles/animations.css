@@ -12,7 +12,6 @@
     animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    z-index: -1;
 }
 
 .action-btn {
@@ -22,6 +21,7 @@
     color: inherit;
     font-size: 16px;
     background: transparent;
+    outline: none;
 
     transition-property: all;
     transition-duration: 1s;

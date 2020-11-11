@@ -23,6 +23,7 @@ header {
     
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 a {
@@ -95,6 +96,7 @@ main {
 
 .section-def {
     flex: 1;
+    z-index: 0;
 }
 
 .section-def h1 {
@@ -106,13 +108,11 @@ main {
 }
 
 .section-def p {
-    z-index: -1;
     font-size: 28px;
     font-weight: 300;
 }
 
 .section-img {
-    z-index: -1;
     padding: 20px;
     margin: 20px;
     height: 50vh;
