@@ -23,6 +23,7 @@ header {
     
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 a {
@@ -70,18 +71,36 @@ main {
     margin: auto;
 }
 
+
+.intro h1{
+    color: #ff5e57;
+    font-style: italic;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.intro p {
+    text-align: center;
+    font-size: 26px;
+}
+
 .section-name {
     display: flex;
     padding: 40px 0;
     height: 100vh;
     align-items: center;
+    position: relative;
 }
 
 .section-def {
     flex: 1;
+    z-index: 0;
 }
 
 .section-def h1 {
+    z-index: -1;
     color: #ff5e57;
     font-size: 44px;
     font-weight: 400;
@@ -97,39 +116,6 @@ main {
     padding: 20px;
     margin: 20px;
     height: 50vh;
-}
-
-.action-btn {
-    padding: 10px 15px;
-    margin: 30px 0 0 0;
-    border: none;
-    color: inherit;
-    font-size: 16px;
-    background-color: #ff5e57;
-}
-
-.intro {
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-    margin: 20vh 0 0 0;
-    padding: 25px 100px;
-
-    justify-content: center;
-}
-
-.intro h1{
-    color: #ff5e57;
-    font-style: italic;
-    text-align: center;
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: 5px;
-}
-
-.intro p {
-    text-align: center;
-    font-size: 26px;
 }
 
 /* About Page Styles*/
