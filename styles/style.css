@@ -314,6 +314,11 @@ main {
         font-size: 30px;
     }
 
+    .contact-logos img {
+        padding: 13px;
+        height: 10vh;
+    }
+
     .blender {
         margin-top: 150px;
     }
